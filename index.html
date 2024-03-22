@@ -1,0 +1,666 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itMustBeGinger | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/icons/nn.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a class="logoBox" href="./index.html">
+                <img src="./media/icons/nn.png" alt="">
+                <h2 class="logo">itMustBeGinger</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                  <li class="list-item">
+                    <a href="./allclasses.html" class="list-link">Products</a>
+                </li>
+                  <li class="list-item">
+                      <a href="./membership.html" class="list-link ">Education/Academy</a>
+                  </li>
+
+                  <li class="list-item">
+                      <a href="./services.html" class="list-link ">Services</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="./contact.html" class="list-link">Booking</a>
+                  </li>
+                    <span href="" class="btn sign-up-btn screen-lg-hidden">
+                      <span class="list-link"><i class="ri-user-6-line"></i></span>
+                    </span>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                
+                <span href="" class="btn sign-up-btn screen-sm-hidden">
+                  <span class="loginArea" id="loginArea">
+                    <span class="list-link userLogo"><i class="ri-user-6-line"></i></span>
+        
+                    <div class="loginPopUp hide">
+                      <p class="accountInfo">
+                        Logged in as, <b><i>name</i></b>
+                      </p>
+                      <button class="btn" id="userBtn">Log out</button>
+                    </div>
+                  </span>
+                  <div class="mobileLogo hide"></div>
+                </span>
+               
+                <span onclick="">
+                  <div class="cartBox">
+                    <div class="carty">
+                      <ion-icon class="shopIcon" size="large" name="cart-outline"></ion-icon>
+                      <div class="cartAmount" id="itemsUpdate">0</div>
+                    </div>
+                  </div>
+                </span>
+
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                  </div>
+        
+                  <div style="display: none;" class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                  </div>
+        
+                  <div
+                    class="icon-box place-items-center screen-lg-hidden menu-toggle-icon"
+                    id="menu-toggle-icon"
+                  >
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                  </div>
+                
+            </div>
+
+        </nav>
+
+    </header>
+
+      <!-- Search -->
+      <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+          <form action="" class="form">
+            <input
+              class="form-input"
+              type="text"
+              placeholder="What are you looking for?"
+            />
+            <button class="btn form-btn icon-box" type="submit">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+          <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div
+          class="btn form-close-btn icon-box place-items-center"
+          id="form-close-btn"
+        >
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+     <!-- Slider main container -->
+     <div class="newMusicSwiper swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="newMusicBox">
+              <img src="./media/hair/h14.jpg" alt="" />
+              <div class="newMusicText">
+                <h1 class="musicTitle">Welcome to <i style="color: lightcoral;">itMustBeGinger</i></h1>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="newMusicBox">
+              <img src="./media/hair/h9.jpg" alt="" />
+              <div class="newMusicText1">
+                <h2 class="musicTitle">Elite Membership</h2>
+                <span class="genre">With One Account, Get Access to all</span>
+                <p><a href="./allclasses.html">Browse products</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="newMusicBox">
+              <img src="./media/hair/h8.jpg" alt="" />
+              <div class="newMusicText1 mobile">
+                <h2 class="musicTitle">Premium Membership</h2>
+                <span class="genre"><i><a href="./membership.html">Get Access to Online Academy</a></i></span>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <!-- <div class="swipeButtons">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+           
+        </div> -->
+      </div>
+
+    <!-- Featured articles -->
+    <section class="featured-articles section section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    
+                    <button onclick="window.location.href =`./membership.html`" class="headline fancy-border">
+                        <span class="place-items-center">Choose your plan</span>
+                    </button>
+                    <span class="headline-description">Our goal is to teach you everything you need to know to take your passion to the next level</span>
+                </div>
+
+                <a href="" class="article featured-article featured-article-1">
+                    <img src="./media/hair/tamara-bellis-ZvPoZtY-0ng-unsplash.jpg" alt="" class="article-image">
+                    <span class="article-category">Join Now</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            
+                            <span class="article-data-spacer"></span>
+                            <span>Education and Classes</span>
+                        </div>
+
+                        <h3 class="title article-title">Bridal hairstyling </h3>
+
+                    </div>
+                </a>
+
+                <a href="" class="article featured-article featured-article-2">
+                    <img src="./media/hair/h17.jpg" alt="" class="article-image">
+                    <span class="article-category">Join Now</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            
+                            <span class="article-data-spacer"></span>
+                            <span>E- learning</span>
+                        </div>
+
+                        <h3 class="title article-title">Wig styling/representation </h3>
+
+                    </div>
+                </a>
+
+                <a href="" class="article featured-article featured-article-3">
+                    <img src="./media/hair/h15.jpg" alt="" class="article-image">
+                    <span class="article-category">Join Now</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span class="article-data-spacer"></span>
+                            <span>E learning</span>
+                        </div>
+
+                        <h3 class="title article-title">Wig-making</h3>  
+
+                    </div>
+                </a>
+
+            </div>
+            
+            <div class="sidebar d-grid">
+
+                <h3 class="title featured-content-title">Our Services</h3>
+                <p>Check out our latest classes where you will learn some of the most sought after hairstyles worldwide.</p>
+                <h5 style="color: crimson;">Learn anytime, anywhere, at your own pace</h5>
+
+                <a class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./media/hair/h7.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span> Hairstyling</span>
+                            <span class="article-data-spacer"></span>
+                            <span> Make-Up</span>
+                        </div>
+
+                        <h3 class="title article-title">Bridal Service</h3>
+
+                    </div>
+                </a>
+
+                <a class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./media/hair/paul-siewert-dnpa8k6TGRE-unsplash.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>Wig designing</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Frontal Installation</span>
+                        </div>
+
+                        <h3 class="title article-title">Wig collection</h3>
+
+                    </div>
+                </a>
+
+                <a class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./media/hair/obi-pixel7propix-PvZDXRiEQ3g-unsplash.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>Wig making</span>
+                            <span class="article-data-spacer"></span>
+                            <span>Wig styling</span>
+                        </div>
+
+                        <h3 class="title article-title">E learning </h3>
+
+                    </div>
+                </a>
+
+                <!-- <a class="trending-news-box">
+                    <div class="trending-news-img-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./images/trending/trending_4.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+
+                        <div class="article-data">
+                            <span>Watch Now</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min watch</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+
+                    </div>
+                </a> -->
+            </div>
+
+        </div>
+
+    </section>
+
+   
+
+    <!-- Older posts -->
+    <section class="older-posts section">
+
+      <div class="container movedown">
+
+          <h2 class="title section-title" data-name="Products Collection">Products Collection</h2>
+
+          <div class="older-posts-grid-wrapper d-grid">
+
+              <a class="article d-grid">
+                  <div class="older-posts-article-image-wrapper">
+                      <img src="./media/hair/h9.jpg" alt="" class="article-image">
+                  </div>
+
+                  <div class="article-data-container">
+
+                      <div class="article-data">
+                          <span>Wig Collection</span>
+                          <span class="article-data-spacer"></span>
+                          <span>Curvy</span>
+                      </div>
+
+                      <h3 class="title article-title">Single Ponytail</h3>
+                      <p class="article-description">High quality wig collection from itmustbeginger.</p>
+                      <h4 class="homePrice">Ghc 320</h4>
+                  </div>
+              </a>
+
+             <a class="article d-grid">
+                  <div class="older-posts-article-image-wrapper">
+                      <img src="./media/hair/h3.jpg" alt="" class="article-image">
+                  </div>
+
+                  <div class="article-data-container">
+
+                      <div class="article-data">
+                          <span>Wig Collection</span>
+                          <span class="article-data-spacer"></span>
+                          <span>Curvy</span>
+                      </div>
+
+                      <h3 class="title article-title">Double frontal Ponytail</h3>
+                      <p class="article-description">High quality wig collection from itmustbeginger.</p>
+                      <h4 class="homePrice">Ghc 640</h4>
+                  </div>
+              </a>
+
+              <a class="article d-grid">
+                <div class="older-posts-article-image-wrapper">
+                    <img src="./media/hair/h5.jpg" alt="" class="article-image">
+                </div>
+
+                <div class="article-data-container">
+
+                    <div class="article-data">
+                        <span>Wig Collection</span>
+                        <span class="article-data-spacer"></span>
+                        <span>Curvy</span>
+                    </div>
+
+                    <h3 class="title article-title">Wavy Extension</h3>
+                    <p class="article-description">High quality wig collection from itmustbeginger.</p>
+                    <h4 class="homePrice">Ghc 200</h4>
+                </div>
+            </a>
+
+            <a class="article d-grid">
+              <div class="older-posts-article-image-wrapper">
+                  <img src="./media/hair/h7.jpg" alt="" class="article-image">
+              </div>
+
+              <div class="article-data-container">
+
+                  <div class="article-data">
+                      <span>Wig Collection</span>
+                      <span class="article-data-spacer"></span>
+                      <span>Curvy</span>
+                  </div>
+
+                  <h3 class="title article-title">Long hair wig</h3>
+                  <p class="article-description">High quality wig collection from itmustbeginger.</p>
+                  <h4 class="homePrice">Ghc 120</h4>
+              </div>
+          </a>
+
+          <a class="article d-grid">
+            <div class="older-posts-article-image-wrapper">
+                <img src="./media/hair/h4.jpg" alt="" class="article-image">
+            </div>
+
+            <div class="article-data-container">
+
+                <div class="article-data">
+                    <span>Wig Collection</span>
+                    <span class="article-data-spacer"></span>
+                    <span>Curvy</span>
+                </div>
+
+                <h3 class="title article-title">Curvy Extension</h3>
+                <p class="article-description">High quality wig collection from itmustbeginger.</p>
+                <h4 class="homePrice">Ghc 230</h4>
+            </div>
+        </a>
+
+        <a class="article d-grid">
+          <div class="older-posts-article-image-wrapper">
+              <img src="./media/hair/h14.jpg" alt="" class="article-image">
+          </div>
+
+          <div class="article-data-container">
+
+              <div class="article-data">
+                  <span>Wig Collection</span>
+                  <span class="article-data-spacer"></span>
+                  <span>Curvy</span>
+              </div>
+
+              <h3 class="title article-title">Traditional Ponytail</h3>
+              <p class="article-description">High quality wig collection from itmustbeginger.</p>
+              <h4 class="homePrice">Ghc 220</h4>
+          </div>
+      </a>
+
+          </div>
+
+          <div class="see-more-container">
+              <a href="./allclasses.html" class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></i></a>
+          </div>
+
+      </div>
+
+  </section>
+    <!-- Popular tags -->
+    <section class="popular-tags section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Our Features">Our Features</h2>
+
+            <div class="popular-tags-container d-grid">
+
+                <a href="" class="article">
+                    <span style="text-align: center;" class="tag-name">40+ classes <br>
+                      well curated for you   
+                      </span>
+                      <video src="./media/20932295.mp4" autoplay loop playsinline muted></video>
+                </a>
+
+                <a href="" class="article">
+                    <span style="text-align: center;" class="tag-name">Award Winning Stylist/Instructors</span>
+                    <video src="./media/video_preview_h264.mp4" autoplay loop playsinline muted></video>
+                </a>
+
+                <a href="" class="article">
+                    <span style="text-align: center;" class="tag-name">24/7 access <br>
+                      to a growing library</span>
+                    <video src="./media/watermarked_preview.mp4" autoplay loop playsinline muted></video>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="blog-post section-header-offset">
+      <div class="blog-post-container container">
+        <div class="blog-post-data">
+          <h3 class="title blog-post-title"><i>itMustBeGinger Services</i></h3>
+          <div class="article-data">
+            <span class="links"><a  href="./services.html">Why Us?</a></span>
+          </div>
+          <img src="./media/hair/h13.jpg" alt="" />
+        </div>
+
+        <div class="container">       
+
+          <blockquote class="quote">
+            <p>
+              <span><i class="ri-double-quotes-l"></i></span> We offer Monthly new tutorials and a Step-by-step hands-on guidance to Learn the skills you need from the comfort of your home and take your career to the next level, So be part of hundreds of people around the world doing the same with our Flexible and suitable classes for a busy life and beginners too.              
+              <span><i class="ri-double-quotes-r"></i></span>
+            </p>
+            
+          </blockquote>
+
+          <h2 style="color: green; text-align: center;">Testimonials</h2>
+          <div style="margin-top: -1rem;" class="author d-grid">
+            <div class="author-image-box">
+              <img
+                src="./media/hair/IMG_2996.jpg"
+                alt=""
+                class="article-image"
+              />
+            </div>
+            <div class="author-about">
+              <h3 class="author-name">Mimi Amoquandoh</h3>
+              <p>
+                Your creativity and attention to detail were evident throughout the entire process. You listened attentively to my desires and took the time to understand my personal style, allowing you to create a hairstyle that perfectly complemented my features. Your expertise and innovative approach shone through as you effortlessly transformed my hair into a work of art.
+              </p>
+              <ul class="list social-media">
+                <li class="list-item">
+                  <a class="list-link"
+                    ><i class="ri-instagram-fill"></i
+                  ></a>
+                </li>
+                <li class="list-item">
+                  <a class="list-link"
+                    ><i class="ri-facebook-circle-fill"></i
+                  ></a>
+                </li>
+                <li class="list-item">
+                  <a class="list-link"
+                    ><i class="ri-twitter-fill"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+                <h6 class="title newsletter-title">Subscribe</h6>
+                <p class="newsletter-description">Add your email to recieve newsletters from <i>itMustBeGinger</i></p>
+
+                <form action="https://formsubmit.co/itmustbginger@gmail.com" method="POST" class="form">
+                    <input type="email" name="New Subscription" class="form-input" placeholder="Enter your email address">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html">
+                    <input type="hidden" name="_subject"  value="New Subscriber!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse" value="Thanks for Subscribing">
+                    <button class="btn form-btn" type="submit" onclick="reset();">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container">
+          <div class="company-data">
+            <a href="./index.html">
+              <h2 class="logo">itMustBeGinger</h2>
+            </a>
+ 
+            <ul class="list social-media">
+              <li class="list-item">
+                <a target="_blank" href="https://www.instagram.com/it_must_be_ginger/" class="list-link"
+                  ><i class="ri-instagram-fill"></i
+                ></a>
+              </li>
+              <li class="list-item">
+                <a target="_blank" href="https://web.facebook.com/ItmustbeGinger" class="list-link"
+                  ><i class="ri-facebook-circle-fill"></i
+                ></a>
+              </li>
+              <li class="list-item">
+                <a target="_blank" href="https://twitter.com/ginger_makeupGH" class="list-link"><i class="ri-twitter-fill"></i></a>
+              </li>
+              <li class="list-item">
+                <a target="_blank" href="https://www.youtube.com/@WendySomuah" class="list-link"
+                  ><i class="ri-youtube-fill"></i></a>
+              </li>
+              <li class="list-item">
+                <a target="_blank" href="https://www.pinterest.com/wendysomuah/?eq=itmustbe&etslf=7112" class="list-link"
+                  ><i class="ri-pinterest-fill"></i
+                ></a>
+              </li>
+              <li class="list-item">
+                <a target="_blank" href="https://www.tiktok.com/@itmustbeginger" class="list-link"
+                  ><ion-icon name="logo-tiktok"></ion-icon></a>
+              </li>
+              <li class="list-item">
+                <a target="_blank" href="" class="list-link"
+                  ><i class="ri-snapchat-fill"></i></a>
+              </li>
+            </ul>
+  
+            <span class="copyright-notice"
+              >&copy;2023 itMustBeGinger. All rights reserved.</span
+            >
+          </div>        
+        </div>
+      </footer>
+
+    <!-- Swiper.js -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./js/main.js"></script>
+    <script src="./js/login.js"></script>
+    <script type="module">
+        import Swiper from "https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js";
+    
+        const swiper = new Swiper(".swiper", {
+          // Optional parameters
+          slidesPreview: 1,
+          spaceBetween: 10,
+          autoplay: {
+            delay: 7000,
+            disableOnInteraction: false,
+          },
+    
+          // If we need pagination
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+    
+          // Navigation arrows
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+    
+          breakpoints: {
+            280: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            510: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            758: {
+              slidesPerView: 1,
+              spaceBetween: 15,
+            },
+            900: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+          },
+        });
+      </script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

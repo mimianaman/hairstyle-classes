@@ -1,0 +1,256 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itMustBeGinger | Home</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/icons/nn.png">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a class="logoBox" href="./index.html">
+                <img src="./media/icons/nn.png" alt="">
+                <h2 class="logo">itMustBeGinger</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                  <li class="list-item">
+                    <a href="./allclasses.html" class="list-link">Products</a>
+                </li>
+                  <li class="list-item">
+                      <a href="./membership.html" class="list-link ">Education/Academy</a>
+                  </li>
+
+                  <li class="list-item">
+                      <a href="./services.html" class="list-link current">Services</a>
+                  </li>
+                  <li class="list-item">
+                      <a href="./contact.html" class="list-link">Booking</a>
+                  </li>
+                    <span href="" class="btn sign-up-btn screen-lg-hidden">
+                      <span class="list-link"><i class="ri-user-6-line"></i></span>
+                    </span>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                
+                <span href="" class="btn sign-up-btn screen-sm-hidden">
+                  <span class="loginArea" id="loginArea">
+                    <span class="list-link userLogo"><i class="ri-user-6-line"></i></span>
+        
+                    <div class="loginPopUp hide">
+                      <p class="accountInfo">
+                        Logged in as, <b><i>name</i></b>
+                      </p>
+                      <button class="btn" id="userBtn">Log out</button>
+                    </div>
+                  </span>
+                  <div class="mobileLogo hide"></div>
+                </span>
+               
+                <span onclick="">
+                  <div class="cartBox">
+                    <div class="carty">
+                      <ion-icon class="shopIcon" size="large" name="cart-outline"></ion-icon>
+                      <div class="cartAmount" id="itemsUpdate">0</div>
+                    </div>
+                  </div>
+                </span>
+
+                <div class="icon-box place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                  </div>
+        
+                  <div style="display: none;" class="icon-box place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                  </div>
+        
+                  <div
+                    class="icon-box place-items-center screen-lg-hidden menu-toggle-icon"
+                    id="menu-toggle-icon"
+                  >
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                  </div>
+                
+            </div>
+
+        </nav>
+
+    </header>
+
+      <!-- Search -->
+      <div class="search-form-container container" id="search-form-container">
+        <div class="form-container">
+          <form action="" class="form">
+            <input
+              class="form-input"
+              type="text"
+              placeholder="What are you looking for?"
+            />
+            <button class="btn form-btn icon-box" type="submit">
+              <i class="ri-search-line"></i>
+            </button>
+          </form>
+          <span class="form-note">Or press ESC to close.</span>
+        </div>
+        <div
+          class="btn form-close-btn icon-box place-items-center"
+          id="form-close-btn"
+        >
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <!--  -->
+      <section class="c-section">
+        <h2 class="c-section__title">
+          <span>Our Services</span>
+        </h2>
+        
+
+      </section>
+      <main class="page-content">
+        <div class="card">
+          <div class="content">
+            <h2 class="bookTitle">EDUCATION AND CLASSES</h2>
+            <h4 class="copy">(a collection of 8 styles)including all to tricks and pointers to execute a flawless style</h4>
+            <p class="copy"><b style="color: crimson;">1.</b> Beginner or foundation course</p>
+            <p class="copy"><b style="color: crimson;">2.</b> Advanced course </p>
+            <p class="copy"><b style="color: crimson;">3.</b> beginner and advanced merge course</p>
+            <p class="copy"><b style="color: crimson;">4.</b> masterclass (8 styles)</p>
+            <p class="copy"><b style="color: crimson;">5.</b> professionals course(8 styles)</p>
+            <button onclick="window.location.href =`./membership.html`" class="bookBtn">Start Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2 class="bookTitle">WIG COLLECTION & PRODUCTS</h2>
+            <p class="copy">Wig collection (units ,pre-styled wigs)</p>
+              <p class="copy"><b style="color: crimson;">1.</b> make up (non bridal clients)</p>
+              <p class="copy"><b style="color: crimson;">2.</b> wig making</p>
+              <p class="copy"><b style="color: crimson;">3.</b> walk-in appointment</p>
+              <p class="copy"><b style="color: crimson;">4.</b> home service </p>
+            <button class="bookBtn">Buy Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2 class="bookTitle">BOOKING SERVICES</h2>
+            <p class="copy"><b style="color: crimson;">1.</b> Home Service</p>
+              <p class="copy"><b style="color: crimson;">2.</b> walk-in appointment</p>
+            <button class="bookBtn">Contact Us</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <h2 class="bookTitle">BRIDAL SERVICES</h2>
+            <p class="copy"><b style="color: crimson;">1.</b> bridal hairstyling</p>
+            <p class="copy"><b style="color: crimson;">2.</b> bridal makeup</p>
+            <button class="bookBtn">Book Now</button>
+          </div>
+        </div>
+      </main>
+      <!--  -->
+
+
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+
+      <div class="container">
+
+          <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+          <div class="form-container-inner">
+              <h6 class="title newsletter-title">Subscribe</h6>
+              <p class="newsletter-description">Add your email to recieve newsletters from <i>itMustBeGinger</i></p>
+
+              <form action="https://formsubmit.co/itmustbginger@gmail.com" method="POST" class="form">
+                  <input type="email" name="New Subscription" class="form-input" placeholder="Enter your email address">
+                  <input type="hidden" name="_next" value="http://127.0.0.1:5500/public/thanks.html">
+                  <input type="hidden" name="_subject"  value="New Subscriber!">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_autoresponse" value="Thanks for Subscribing">
+                  <button class="btn form-btn" type="submit" onclick="reset();">
+                      <i class="ri-mail-send-line"></i>
+                  </button>
+              </form>
+
+          </div>
+
+      </div>
+
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer section">
+      <div class="footer-container container">
+        <div class="company-data">
+          <a href="./index.html">
+            <h2 class="logo">itMustBeGinger</h2>
+          </a>
+
+          <ul class="list social-media">
+            <li class="list-item">
+              <a target="_blank" href="https://www.instagram.com/it_must_be_ginger/" class="list-link"
+                ><i class="ri-instagram-fill"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a target="_blank" href="https://web.facebook.com/ItmustbeGinger" class="list-link"
+                ><i class="ri-facebook-circle-fill"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a target="_blank" href="https://twitter.com/ginger_makeupGH" class="list-link"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li class="list-item">
+              <a target="_blank" href="https://www.youtube.com/@WendySomuah" class="list-link"
+                ><i class="ri-youtube-fill"></i></a>
+            </li>
+            <li class="list-item">
+              <a target="_blank" href="https://www.pinterest.com/wendysomuah/?eq=itmustbe&etslf=7112" class="list-link"
+                ><i class="ri-pinterest-fill"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a target="_blank" href="https://www.tiktok.com/@itmustbeginger" class="list-link"
+                ><ion-icon name="logo-tiktok"></ion-icon></a>
+            </li>
+            <li class="list-item">
+              <a target="_blank" href="" class="list-link"
+                ><i class="ri-snapchat-fill"></i></a>
+            </li>
+          </ul>
+
+          <span class="copyright-notice"
+            >&copy;2023 itMustBeGinger. All rights reserved.</span
+          >
+        </div>        
+      </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./js/nav.js"></script>
+    <script src="./js/login.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
